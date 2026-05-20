@@ -2,7 +2,7 @@
   "id": "sensenova-skills",
   "name": "SenseNova-Skills",
   "description": "SenseNova agent skill suite: deep research, data analysis, image generation, infographics, and PPT generation.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "skills": [
     "skills/sn-da-excel-workflow",
     "skills/sn-da-image-caption",
