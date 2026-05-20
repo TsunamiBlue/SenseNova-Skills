@@ -1,0 +1,35 @@
+{
+  "name": "sensenova-skills",
+  "version": "1.0.2",
+  "description": "SenseNova agent skill suite: deep research, data analysis, image generation, infographics, and PPT generation.",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/OpenSenseNova/SenseNova-Skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenSenseNova/SenseNova-Skills"
+  },
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "sensenova",
+    "skills",
+    "deep-research",
+    "data-analysis",
+    "image-generation",
+    "ppt"
+  ],
+  "files": [
+    "openclaw.plugin.json",
+    "skills/",
+    "README.md"
+  ],
+  "openclaw": {
+    "compat": {
+      "pluginApi": ">=2026.3.24-beta.2",
+      "minGatewayVersion": "2026.3.24-beta.2"
+    },
+    "build": {
+      "openclawVersion": "2026.5.18"
+    }
+  }
+}
